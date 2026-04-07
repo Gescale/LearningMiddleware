@@ -4,7 +4,7 @@ A practical repository exploring the ASP.NET Core middleware pipeline, built alo
 
 This project demonstrates how HTTP requests and responses are handled, intercepted, and modified as they flow through the modern .NET application pipeline.
 
-## 🚀 Overview
+## Overview
 
 Middleware components are the core building blocks of an ASP.NET Core application's HTTP pipeline. This repository contains accurate, implementation-focused examples of configuring, creating, and ordering middleware to control application flow safely and efficiently.
 
@@ -16,12 +16,12 @@ Middleware components are the core building blocks of an ASP.NET Core applicatio
 * **Custom Middleware Classes:** Extracting inline anonymous functions into clean, reusable, and testable C# classes.
 * **Short-circuiting:** Returning early from the pipeline (e.g., rejecting invalid or unauthorized requests before they hit the controllers).
 
-## 🛠️ Tech Stack & Prerequisites
+## Tech Stack & Prerequisites
 * **Framework:** [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
 * **IDE:** Visual Studio 2022 (v17.12+) or Visual Studio Code
 * **Language:** C# 13
 
-## ⚙️ Getting Started
+## Getting Started
 
 1. **Clone the repository:**
    ```bash
